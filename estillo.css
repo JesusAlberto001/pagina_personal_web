@@ -1,0 +1,231 @@
+html {
+    background: rgb(70, 94, 231);
+}
+
+.contenedor {
+    width: 940px;
+    margin: auto;
+}
+
+section h1,
+footer h1,
+nav a {
+    font-family: 'finalf';
+    src: url('fonts/finalf.ttf');
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+hr {
+    border: none;
+    height: 10px;
+    color: #000000;
+    background-color: black;
+    clear: both;
+}
+
+#principal {
+    display: inline-block;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+#logo,
+header h1 {
+    display: inline-block;
+    margin-bottom: -15px;
+}
+
+header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+nav {
+    display: inline-block;
+    width: 930px;
+    height: 0px;
+    margin-right: 1500px;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 2px;
+}
+
+nav li {
+    display: inline-block;
+    height: -57;
+}
+
+nav a {
+    font-size: 1.1em;
+    color: #181818;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: red;
+    border-bottom: 3px solid red;
+}
+
+#image {
+    margin-top: 15px;
+    height: 210px;
+    border-radius: 5px;
+    background: url('fotos/banner.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#boton {
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24, 24, 24, 0.596);
+    color: white;
+    font-size: 0.8em;
+}
+
+.boton {
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: rgb(184, 64, 64);
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: rgb(26, 24, 24);
+    text-decoration: none;
+}
+
+.boton:hover {
+    color: whitesmoke;
+    background-color: rgba(205, 237, 255, 0.404);
+}
+
+seccion1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: -25px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+#CONTENEDOR1,
+seccion1 p {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.seccion2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+#CONTENEDOR02,
+seccion2 p {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.seccion3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+#CONTENEDOR3,
+seccion3 p {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+footer {
+    padding-top: 10px;
+}
+
+footer p,
+footer ul {
+    font-size: 0.9em;
+}
+
+footer h1 {
+    font-size: 1.3em;
+}
+
+#last,
+#fotos,
+#compania {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#last {
+    width: 30%;
+}
+
+#last a {
+    text-decoration: none;
+    color: black;
+}
+
+#last a:hover {
+    color: black;
+    border-bottom: 3px solid red;
+}
+
+#fotos {
+    width: 40%;
+}
+
+#compania {
+    width: 27%;
+}
+
+#fotos img {
+    border: 2px solid #000000;
+    margin-right: 2px;
+}
+
+#compania ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-left: 2px;
+}
+
+#compania a {
+    text-decoration: none;
+    color: black;
+}
